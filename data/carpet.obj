@@ -1,0 +1,39 @@
+# Blender3D v245 OBJ File: carpet.blend
+#
+# Modelled by Emmanuel Puybaret / eTeks under Blender 3d modeller for SweetHome3D
+# This file is under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+#
+# www.blender3d.org
+
+mtllib carpet.mtl
+
+g carpet
+usemtl carpet_carpet.jpg
+v 80.141968 1.042486 -110.100250
+v -79.858032 1.042486 -110.100250
+v 80.141968 1.042513 114.899750
+v -79.858032 1.042513 114.899750
+vt 0.000000 0.000000 0.0
+vt 0.9 0.000000 0.0
+vt 0.9 0.9 0.0
+vt 0.000000 0.9 0.0
+vn 0 1 0 
+
+s off
+f 3/1/1 1/2/1 2/3/1 4/4/1
+
+g carpetBase
+usemtl gray
+v 80.141968 1.042486 -110.100250
+v 80.141968 0.042487 -110.100250
+v -79.858032 0.042487 -110.100250
+v -79.858032 1.042486 -110.100250
+v 80.141968 1.042513 114.899750
+v 80.141907 0.042513 114.899750
+v -79.858032 0.042514 114.899750
+v -79.858032 1.042513 114.899750
+f 5//1 6//1 7//1 8//1
+f 9//1 12//1 11//1 10//1
+f 5//1 9//1 10//1 6//1
+f 6//1 10//1 11//1 7//1
+f 7//1 11//1 12//1 8//1
